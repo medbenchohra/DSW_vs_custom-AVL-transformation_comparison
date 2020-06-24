@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1464848495 source:e:\welcome\study\tp02_arbre\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1465780359 source:c:\users\the king mohamed\desktop\esi\mon\s2\modules\algorithmique (alsdd)\tp\tp2_algorithme_d_equilibrage\tp2_avl_vs_dsw\benchohra_sannef_g04_tp2\c\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
