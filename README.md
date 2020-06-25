@@ -27,4 +27,4 @@ The DSW will perform two transformations: the first is from the tree to a list a
 To conclude, the DSW is more efficient in: speed, number of nodes visited and the depth of the resulting tree, but it will completely change the structure of the tree (reconstruction), while the transformation to  AVL is more effective in the number of rotations performed and it will maintain the structure as it is by modifying only what requires a modification.
 
 
-To see the statistics and comparison curves of these two methods, check the Excel file.
+To see the statistics and comparison curves of these two methods, check the "stats_and_graphs" pdf file.
