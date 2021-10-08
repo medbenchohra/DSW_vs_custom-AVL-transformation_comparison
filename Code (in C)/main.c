@@ -1,10 +1,3 @@
-  /**--------------------------------------------------------**/
-  /**       C o n v e r s i o n   Z vers C (Standard)        **/
-  /**             Réalisée par Pr D.E ZEGOUR                 **/
-  /**             E S I - Alger                              **/
-  /**             Copywrite 2014                             **/
-  /**--------------------------------------------------------**/
-
   #include <stdio.h>
   #include <stdlib.h>
   #include <time.h>
@@ -13,7 +6,7 @@
   #define True 1
   #define False 0
   static unsigned int avl_noeud,dsw_noeud,avl_rot,dsw_rot,M,avl_nbr_noeud;
-  /** Implémentation **\: TABLEAU DE ENTIERS**/
+  /** ImplÃ©mentation **\: TABLEAU DE ENTIERS**/
 
   /** Tableaux **/
 
@@ -31,7 +24,7 @@
     }
 
 
-  /** Implémentation **\: ARBRE BINAIRE DE ENTIERS**/
+  /** ImplÃ©mentation **\: ARBRE BINAIRE DE ENTIERS**/
 
   /** Arbres de recherche binaire **/
 
@@ -85,7 +78,7 @@
     { free( P ) ; }
 
 
-  /** Implémentation **\: ARBRE BINAIRE DE STRUCTURES**/
+  /** ImplÃ©mentation **\: ARBRE BINAIRE DE STRUCTURES**/
 
   /** Structures dynamiques **/
 
@@ -285,7 +278,7 @@
      return Rech_arb2 ;
     }
   /* -------------------------------------- */
-  /* Insertion dans l'arb qui va être equilibré par la dsw */
+  /* Insertion dans l'arb qui va Ãªtre equilibrÃ© par la dsw */
 
   void Insertarb (Pointeur_Ai *A , int *V)
     {
@@ -429,7 +422,7 @@
 
     }
   /*   ------------------------------------      */
-  /* Transformer un arb à une liste ( vine ) */
+  /* Transformer un arb Ã  une liste ( vine ) */
 
   void Tree_to_vine (Pointeur_Ai *A)
     {
@@ -458,7 +451,7 @@
 
     }
   /*--------------------------------------    */
-  /* Transformer la liste creé vers un arb equilibré */
+  /* Transformer la liste creÃ© vers un arb equilibrÃ© */
 
   void Vine_to_tree (Pointeur_Ai *A)
     {
@@ -518,7 +511,7 @@
      return Balance2 ;
     }
   /*--------------------------------------    */
-  /* verifier l'equilibrage de l'arb A equilibré par la methode de dsw */
+  /* verifier l'equilibrage de l'arb A equilibrÃ© par la methode de dsw */
 
   bool  Verif_equi_dsw (Pointeur_Ai *A)
     {
@@ -550,7 +543,7 @@
     }
   /*__________________Les Modules de Tranformation vers AVL_________________________________*/
   /*--------------------------------------    */
-  /* mise à jour des champs balance d'arb qui va transformer vers un avl */
+  /* mise Ã  jour des champs balance d'arb qui va transformer vers un avl */
 
   void Calcul_bal (Pointeur_AUii *A)
     {
@@ -574,7 +567,7 @@
 
     }
   /*--------------------------------------    */
-  /* verifier l'equilibrage de l'arb A transformé vers un avl */
+  /* verifier l'equilibrage de l'arb A transformÃ© vers un avl */
 
   /* de avl */
 
@@ -729,7 +722,7 @@
      return Add_imaginary_root2 ;
     }
   /*--------------------------------------    */
-  /* liberer le noeud ajouté */
+  /* liberer le noeud ajoutÃ© */
 
   void Free_imaginary_root (Pointeur_AUii *Im)
     {
@@ -768,7 +761,7 @@
      return First_post2 ;
     }
   /*--------------------------------------    */
-  /* le suivant postordre d'un noeud donné */
+  /* le suivant postordre d'un noeud donnÃ© */
 
   Pointeur_AUii Suiv_post (Pointeur_AUii *A)
     {
@@ -817,7 +810,7 @@
      return Suiv_post2 ;
     }
   /*--------------------------------------    */
-  /* equilibrer un noeud donné */
+  /* equilibrer un noeud donnÃ© */
 
   void Equilibrer (Pointeur_AUii *A)
     {
@@ -908,7 +901,7 @@
 
     }
   /*--------------------------------------    */
-  /* inserer dans l'arbre qui va être equilibré par la transformation vers avl*/
+  /* inserer dans l'arbre qui va Ãªtre equilibrÃ© par la transformation vers avl*/
 
   void Insertavl (Pointeur_AUii *Root , int *V)
     {
@@ -1034,7 +1027,7 @@
      return Prof_arb_dsw2 ;
     }
   /*--------------------------------------    */
-  /* Liberer l'espace occupé par l'arbre equilibré par dsw */
+  /* Liberer l'espace occupÃ© par l'arbre equilibrÃ© par dsw */
 
   void Free_dsw (Pointeur_Ai *A)
     {
@@ -1054,7 +1047,7 @@
 
     }
   /*--------------------------------------    */
-  /* Liberer l'espace occupé par l'arbre equilibré par transformation vers avl */
+  /* Liberer l'espace occupÃ© par l'arbre equilibrÃ© par transformation vers avl */
 
   void Free_avl (Pointeur_AUii *A)
     {
